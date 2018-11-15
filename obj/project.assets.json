@@ -12368,11 +12368,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mehmet/project/dotnet/University/University.csproj",
+      "projectUniqueName": "/home/mehmet/project/dotnet/university/University.csproj",
       "projectName": "University",
-      "projectPath": "/home/mehmet/project/dotnet/University/University.csproj",
+      "projectPath": "/home/mehmet/project/dotnet/university/University.csproj",
       "packagesPath": "/home/mehmet/.nuget/packages/",
-      "outputPath": "/home/mehmet/project/dotnet/University/obj/",
+      "outputPath": "/home/mehmet/project/dotnet/university/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
