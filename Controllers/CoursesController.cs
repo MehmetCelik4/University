@@ -18,10 +18,13 @@ namespace University.Controllers
         {
             _context = context;
         }
+        [ViewData]
+        public string Title { get; set; }
 
         // GET: Courses
         public async Task<IActionResult> Index()
         {
+            Title = "Courses";
             var schoolContext = _context.Courses.Include(c => c.Department);
             return View(await schoolContext.ToListAsync());
         }
